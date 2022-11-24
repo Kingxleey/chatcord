@@ -21,27 +21,39 @@
 			<main class="join-main">
 				<form action="chat.html">
 					<div class="form-control">
-						<label for="username">Username</label>
+						<label for="Username">Username</label>
+						
 						<input
 							type="text"
 							name="username"
 							id="username"
 							placeholder="Enter username..."
 							required
+                           />
+
+							<label for="Email">Email</label>
+							<input
+								type="text"
+								name="Email"
+								id="Email"
+								placeholder="Enter your Email"
+								required
 						/>
 					</div>
+
+
 					<div class="form-control">
 						<label for="room">Room</label>
 						<select name="room" id="room">
-							<option value="JavaScript">JavaScript</option>
-							<option value="Python">Python</option>
-							<option value="PHP">PHP</option>
-							<option value="C#">C#</option>
-							<option value="Ruby">Ruby</option>
-							<option value="Java">Java</option>
+							<option value="Back-end Track">Back-end Track</option>
+							<option value="Front-end Track">Front-end Track</option>
+							<option value="Product Design">Product Design Track</option>
+							<option value="Fullstack dev Track">Fullstack dev Track</option>
+							<option value="General">General</option>
+							<option value="Fun Room">Fun Room</option>
 						</select>
 					</div>
-					<button type="submit" class="btn">Join Chat</button>
+					<button type="submit" class="btn">Join Chat Room </button>
 				</form>
 			</main>
 		</div>
